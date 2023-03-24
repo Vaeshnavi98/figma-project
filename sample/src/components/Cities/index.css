@@ -1,0 +1,196 @@
+
+.background2 {
+    background-color: white;
+    height: 400px;
+    text-align: center;
+}
+
+@media screen and (max-width: 320px) {
+    .background2 {
+        background-color: white;
+        height: 400px;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 321px) and (max-width: 420px) {
+    .background2 {
+        background-color: white;
+        height: 450px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 421px) and (max-width: 480px) {
+    .background2 {
+        background-color: white;
+        height: 500px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 600px) {
+    .background2 {
+        background-color: white;
+        height: 650px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+    .background2 {
+        background-color: white;
+        height: 70%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 801px) and (max-width: 1024px) {
+    .background2 {
+        background-color: white;
+        height: 80%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .background2 {
+        background-color: white;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+.weatherType {
+    padding: 10px;
+    color: white;
+}
+
+
+.location {
+    padding: 20px;
+    margin: 0px;
+}
+
+.cities-deco {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+.individual-container {
+    /*  height: 20%;
+   width: 250px;
+   background-color: black;
+   border-radius: 7px;
+   margin: 20px;
+   color: white; */
+    width: 25%;
+    height: 250px;
+    border-radius: 7px;
+    box-shadow: 0 0 8px;
+
+}
+
+.individual-container-child-1 {
+    height: 160px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.individual-container-child-2 {
+    height: 90px;
+    display: flex;
+}
+
+
+
+.input-deco {
+    background-color: white;
+    border: 0px;
+    padding: 15px;
+    width: 600px;
+    box-shadow: 0 0 16px #888888;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 765px) {
+    .input-deco {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 980px) {
+    .input-deco {
+        width: 80%;
+    }
+}
+
+
+
+.earth-image {
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 480px) {
+    .earth-image {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 760px) {
+    .earth-image {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .earth-image {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .individual-container {
+        width: 30%;
+        height: 150px;
+    }
+
+    .individual-container-child-1 {
+        height: 100px;
+    }
+
+    .individual-container-child-2 {
+        height: 50px;
+        font-size: 8px;
+        text-align: center;
+        margin-top: -10px;
+    }
+}
+.default-cities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sunny-weather {
+    background-image: url("https://i.makeagif.com/media/12-22-2017/LlqpSd.gif");
+    background-size: cover;
+}
+
+.cloudy-weather {
+    background-image: url("https://thumbs.gfycat.com/BlondAmusedAsiandamselfly-size_restricted.gif");
+    background-size: cover;
+}
+
+
+.thunder-weather {
+    background-image: url("https://thumbs.gfycat.com/SarcasticIndolentBrownbear-max-1mb.gif");
+    background-size: cover;
+}

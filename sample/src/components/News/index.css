@@ -1,0 +1,137 @@
+.background3{
+    background-color: white;
+    height: 100vh;
+    text-align: center;
+}
+.news-deco{
+    color: black;
+    font-size: 30px;
+    margin-top: 70px;
+}
+.contact-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+}
+.contacts-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.weather-image-deco{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    border-radius: 7px;
+}
+.container1{
+    background-image: url("https://w0.peakpx.com/wallpaper/185/688/HD-wallpaper-clouds-sky-weather-cloudy.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+}
+.container2{
+   background-image: url("https://w0.peakpx.com/wallpaper/999/787/HD-wallpaper-cloudy-day-cloudy-weather.jpg");
+   text-align: center;
+   display: flex;
+}
+.container3{
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/b94Xh3eCwycVuHjBVmw_p6ej4dg/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2019/07/12/789/n/1922441/f9cc294c34316a54_GettyImages-941097280/i/sunny-day.jpg");
+    background-size: cover;
+    text-align: center;
+    display: flex;
+}
+.align-items{
+    align-self: flex-end;
+    font-size: 25px;
+    color: white;
+}
+.background3 {
+    background-color: white;
+    height: 500px;
+    text-align: center;
+}
+
+.news-deco {
+    color: black;
+    font-size: 30px;
+    margin-top: 70px;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.contacts-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.contacts-individual-section {
+    margin-right: 15px;
+}
+
+.empty-div {
+    height: 200px;
+    width: 40%;
+}
+.default-cities {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.weather-in-cities {
+    width: 25%;
+    height: 250px;
+    border-radius: 7px;
+    box-shadow: 0 0 4px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.sunny-weather-1 {
+    background-image: url("https://j.gifs.com/vQJxxY.gif");
+    background-size: cover;
+}
+
+
+
+.cloudy-weather-1 {
+    background-image: url("https://i.gifer.com/7RtV.gif");
+    background-size: cover;
+}
+
+
+
+.thunder-weather-1 {
+    background-image: url("https://i.gifer.com/Pg5O.gif");
+    background-size: cover;
+}
+
+.weatherDescription {
+    padding: 10px;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    .weatherDescription{
+        font-size: 10px;
+    }
+    .weather-in-cities{
+        height: 150px;
+    }
+   
+}
